@@ -18,5 +18,7 @@ int main(void)
 {
     debounce.start();
     button.rise(&toggle); // attach the address of the toggle
-    while (1);
+    while (1) {
+        while (1);
+    };
 }
